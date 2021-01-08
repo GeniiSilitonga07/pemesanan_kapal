@@ -3,7 +3,7 @@
 global $con;
 $con = mysqli_connect("localhost", "root", "");
 if (!$con) {
-    die("database connect problem");
+    die("database connection problem");
 }
-$db_use = mysqli_select_db($con, "spkdt") or die("selet db problem !!");
+$db_use = mysqli_select_db($con, "les_private") or die("DB PROBLEM !!");
 ?>

@@ -4,31 +4,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>RPKDT</title>
+        <title>PrivateTeacher</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/typed.js"></script>
-        
-        <script>
-            window.onload = function () {
-                var typed = new Typed('.typing-effect', {
-                    strings: [
-                        "Samosir island is a piece of heaven.",
-                        "Samosir island has many region.",
-                        "Every region has different culture.",
-                        "But every region separates by Toba Lake.",
-                        "Book your ticket to reach your destination."
-                    ],
-                    typeSpeed: 50,
-                    backDelay: 1500,
-                    loop: 1
-                });
-            }
-        </script> 
-
         <style type="text/css">
             .footer {
                 height:35px;
@@ -36,8 +18,7 @@
                 line-height:50px;
                 background:#333;
                 color:#fff;
- 
-                position:absolute;
+                position:fixed;
                 bottom:0px;
             }
         </style>
